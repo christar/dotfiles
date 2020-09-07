@@ -3,4 +3,4 @@
 2. run install.sh
 
 ## neovim specific
-- `alias nv="neovim -u ~/.vim/vimrc"`
+- `alias nv="nvim -u ~/.vim/vimrc"`
