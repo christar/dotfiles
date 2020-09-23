@@ -18,6 +18,8 @@ filetype plugin indent on    " required
 " basic settings
 set mouse=a
 syntax on
+" disable highlighting after search by enter key
+nnoremap <silent> <CR> :nohlsearch<CR><CR>
 set ignorecase
 set smartcase
 set number relativenumber
