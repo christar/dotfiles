@@ -21,3 +21,6 @@ cp -f "$HOME/.vimrc" "$HOME/.vimrc.bak" 2>/dev/null || true
 cp -f "$HOME/.vim/vimrc" "$HOME/.vim/vimrc.bak" 2>/dev/null || true
 ln -sf $PWD/vim/vimrc ~/.vim/vimrc
 
+## install vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
