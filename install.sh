@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # oh-my-zsh
-if [ -d "$HOME/.oh-my-zsh/custom" ]; then 
-    cp -f $PWD/oh-my-zsh/my-custom.zsh $HOME/.oh-my-zsh/custom/
+if [ -d "$HOME/.oh-my-zsh/custom" ]; then
+    ln -sf $PWD/oh-my-zsh/my-custom.zsh $HOME/.oh-my-zsh/custom/
 else
-    echo "oh-my-zsh custom folder is not found!" 
+    echo "oh-my-zsh custom folder is not found!"
     echo "check if oh-my-zsh is installed!"
 fi
 
