@@ -6,6 +6,7 @@
 5. run python3 install.py --all
 
 ## neovim specific
+- `pip3 install pynvim` for python3 support
 - `alias nv="nvim -u ~/.vim/vimrc"`
 
 
