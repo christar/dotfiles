@@ -43,7 +43,9 @@ inoremap { {}<ESC>ha
 " trim trailing spaces
 autocmd BufWritePre * %s/\s\+$//e
 
-" TODO use system clipboard
+" use system clipboard
+set clipboard+=unnamed
+
 " TODO toggle comment
 " TODO nerd-tree / file explore
 
