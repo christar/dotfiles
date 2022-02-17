@@ -12,3 +12,6 @@ esac
 alias n="nvim -u ~/.vim/vimrc"
 alias t="open -a typora"
 alias gdb="gdb -tui"
+
+setxkbmap -option "ctrl:swapcaps"
+
