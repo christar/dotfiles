@@ -13,5 +13,10 @@ alias n="nvim -u ~/.vim/vimrc"
 alias t="open -a typora"
 alias gdb="gdb -tui"
 
-setxkbmap -option "ctrl:swapcaps"
+case "$OSTYPE" in
+  linux*)
+    if [[ -n "${XDG_CURRENT_DESKOP}" ]] ; then
+      setxkbmap -option "ctrl:swapcaps"
+    fi
+esac
 
