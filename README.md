@@ -1,3 +1,9 @@
+# before start
+make sure following packages are installed:
+- python3
+- neovim
+- zsh & ohmyzsh
+
 # vimrc setup
 1. git clone into an arbitrary folder
 2. run install.sh
@@ -7,6 +13,5 @@
 
 ## neovim specific
 - `pip3 install pynvim` for python3 support
-- `alias nv="nvim -u ~/.vim/vimrc"`
 
 
