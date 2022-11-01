@@ -15,7 +15,7 @@ alias gdb="gdb -tui"
 
 case "$OSTYPE" in
   linux*)
-    if [[ -n "${XDG_CURRENT_DESKOP}" ]] ; then
+    if xset q &> /dev/null ; then
       setxkbmap -option "ctrl:swapcaps"
     fi
 esac
